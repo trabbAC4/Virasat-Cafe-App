@@ -4,9 +4,10 @@
         <title>The Generics | About</title>
         <meta name="description" content="This is the description">
         <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="navStyles.css">
     </head>
     <body>
-        <header class="main-header">
+        <!-- <header class="main-header">
             <nav class="nav main-nav">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
@@ -15,7 +16,22 @@
                 </ul>
             </nav>
             <h1 class="band-name band-name-large">The Generics</h1>
-        </header>
+            
+        </header> -->
+        <header class="hero">
+          <div class="navbar top" id="navbar">
+             <h1 class="logo">
+                <span class="text-primary"><i class="fas fa-ice-cream"></i> Jalebi</span>Baby
+             </h1>
+             <nav>
+                <ul>
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="/store">Store</a></li>
+                   <li><a href="about.html">About</a></li>
+                </ul>
+             </nav>
+          </div>
+       </header>
         <div class="about-section">
             <h1>About Us Page</h1>
             <p>Some text about who we are and what we do.</p>
@@ -88,6 +104,46 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGutPl0mvHUsQ4DgpQLlUw1-3rV4TUMsc&callback=initMap&libraries=&v=weekly"
     
     ></script>
+    <script>
+      const navbar = document.getElementById('navbar');
+      let scrolled = false;
+
+      window.onscroll = function() {
+         if(window.pageYOffset > 100) {
+            navbar.classList.remove('top');
+            if(!scrolled) {
+               navbar.style.transform = "translateY(-70px)";
+            }
+            setTimeout(function() {
+               navbar.style.transform = "translateY(0)";
+               scrolled = true;
+            }, 200);
+         } else {
+            navbar.classList.add('top');
+            scrolled = false;
+         }
+      };
+
+      // Smooth Scrolling 
+
+      $('#navbar a').on('click', function (e) {
+         if (this.hash !=='') {
+            e.preventDefault();
+
+            const hash = this.hash;
+
+            $('html, body').animate(
+               {
+                  scrollTop: $(hash).offset().top - 100,
+               },
+               800
+            );
+         }
+      });
+
+
+
+   </script>
           
 
     </body>
