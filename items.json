@@ -1,42 +1,112 @@
 {
-  "music": [
+  "Bengali traditional sweets": [
     {
       "id": 1,
-      "name": "Album 1",
-      "price": 1299,
-      "imgName": "Album 1.png"
+      "name": "Sweet 2",
+      "price": 12,
+      "imgName": "sweets 2.png"
     },
     {
       "id": 2,
-      "name": "Album 2",
+      "name": "sweets 3",
       "price": 1499,
-      "imgName": "Album 2.png"
+      "imgName": "sweets 3.png"
     },
     {
       "id": 3,
-      "name": "Album 3",
+      "name": "sweets 4",
       "price": 999,
-      "imgName": "Album 3.png"
+      "imgName": "sweets 4.png"
+    },
+    {
+      "id": 5,
+      "name": "sweets 6",
+      "price": 1999,
+      "imgName": "sweets 6.png"
     },
     {
       "id": 4,
-      "name": "Album 4",
+      "name": "sweets 5",
       "price": 1999,
-      "imgName": "Album 4.png"
-    }
-  ],
-  "merch": [
-    {
-      "id": 5,
-      "name": "T-Shirt",
-      "price": 1999,
-      "imgName": "Shirt.png"
+      "imgName": "sweets 5.png"
     },
     {
       "id": 6,
-      "name": "Coffee Cup",
-      "price": 699,
-      "imgName": "Cofee.png"
+      "name": "Yogurt cup (small)",
+      "price": 1999,
+      "imgName": "yogurt cuo.png"
+    },
+    {
+      "id": 7,
+      "name": "Yogurt clay bowl",
+      "price": 1999,
+      "imgName": "yogurt clay large.png"
+    },
+    {
+      "id": 8,
+      "name": "malai chum chum",
+      "price": 1999,
+      "imgName": "malai chum chum.png"
     }
-  ]
+
+
+  ],
+  "Cakes": [
+    {
+      "id": 9,
+      "name": "White chocolate cake (whole cake)",
+      "price": 699,
+      "imgName": "white chocolate cake.png"
+    },
+    {
+      "id": 10,
+      "name": "Selected cupcakes",
+      "price": 699,
+      "imgName": "cupcakes.png"
+    },
+    {
+      "id": 11,
+      "name": "Mocha slice",
+      "price": 1999,
+      "imgName": "mochaslice.png"
+    },
+    {
+      "id": 12,
+      "name": "vanilla cake slice",
+      "price": 1999,
+      "imgName": "white slice cake.png"
+    },
+    {
+      "id": 13,
+      "name": "chocolate sprinkle cake",
+      "price": 1999,
+      "imgName": "chocolate sprinkle cake.png"
+    },
+    {
+      "id": 14,
+      "name": "Rainbow sprinkle cake",
+      "price": 1999,
+      "imgName": "rainbow sprinkle cake.png"
+    }
+  ],
+   "Drinks":[
+    {
+      "id": 15,
+      "name": "Mango/Pink lassi",
+      "price": 699,
+      "imgName": "white chocolate cake.png"
+    },
+    {
+      "id": 16,
+      "name": "Monster Energy Drink",
+      "price": 699,
+      "imgName": "monster.png"
+    },
+    {
+      "id": 17,
+      "name": "Starbucks frappucino",
+      "price": 1999,
+      "imgName": "frappuccino.png"
+    }
+   ]
 }
