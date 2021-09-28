@@ -1,6 +1,6 @@
 
 {
-  "music": [
+  "bengali_desserts": [
     {
       "id": 1,
       "name": "Sweet 2",
@@ -52,7 +52,7 @@
 
 
   ],
-  "merch": [
+  "cakes": [
     {
       "id": 9,
       "name": "White chocolate cake (whole cake)",
@@ -95,7 +95,7 @@
       "id": 15,
       "name": "Mango/Pink lassi",
       "price": 699,
-      "imgName": "white chocolate cake.png"
+      "imgName": "lassi thing.png"
     },
     {
       "id": 16,

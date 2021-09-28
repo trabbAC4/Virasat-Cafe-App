@@ -2,7 +2,7 @@
 //Running using terminal
 //Now go to localhost
 if (process.env.NODE_ENV !== 'production') {
-    require('dotenv').load()
+  require('dotenv').config();
 }
 
 const stripeSecretKey = process.env.STRIPE_SECRET_KEY
@@ -36,7 +36,7 @@ app.post('/purchase', function(req, res) {
         res.status(500).end()
       } else {
         const itemsJson = JSON.parse(data)
-        const itemsArray = itemsJson.music.concat(itemsJson.merch)
+        const itemsArray = itemsJson.bengali_desserts.concat(itemsJson.cakes).concat(itemsJson.drinks)
         let total = 0
         req.body.items.forEach(function(item) {
           const itemJson = itemsArray.find(function(i) {
