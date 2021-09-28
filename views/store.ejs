@@ -4,6 +4,7 @@
         <title>The Generics | Store</title>
         <meta name="description" content="This is the description">
         <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="navStyles.css" />
         <script src="https://checkout.stripe.com/checkout.js" defer></script>
         <script>
             var stripePublicKey = '<%= stripePublicKey %>'
@@ -11,6 +12,21 @@
         <script src="store.js" defer></script>
     </head>
     <body>
+        <header class="hero">
+            <div class="navbar top" id="navbar">
+               <h1 class="logo">
+                  <span class="text-primary"><i class="fas fa-ice-cream"></i> Jalebi</span>Baby
+               </h1>
+               <nav>
+                  <ul>
+                     <li><a href="#home">Home</a></li>
+                     <li><a href="/store">Store</a></li>
+                     <li><a href="about.html">About</a></li>
+                  </ul>
+               </nav>
+            </div>
+      
+        <!-- 
         <header class="main-header">
             <nav class="main-nav nav">
                 <ul>
@@ -21,10 +37,12 @@
             </nav>
             <h1 class="band-name band-name-large">The Generics</h1>
         </header>
+    -->
+
         <section class="container content-section">
             <h2 class="section-header">Bengali Desserts</h2>
             <div class="shop-items">
-                <% items.music.forEach(function(item){ %>
+                <% items.bengali_desserts.forEach(function(item){ %>
                     <div class="shop-item" data-item-id="<%= item.id %>">
                         <span class="shop-item-title"><%= item.name %></span>
                         <img class="shop-item-image" src="Images/<%= item.imgName %>">
@@ -37,9 +55,24 @@
             </div>
         </section>
         <section class="container content-section">
-            <h2 class="section-header">MERCH</h2>
+            <h2 class="section-header">Cakes</h2>
             <div class="shop-items">
-                <% items.merch.forEach(function(item){ %>
+                <% items.cakes.forEach(function(item){ %>
+                    <div class="shop-item" data-item-id="<%= item.id %>">
+                        <span class="shop-item-title"><%= item.name %></span>
+                        <img class="shop-item-image" src="Images/<%= item.imgName %>">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">$<%= item.price / 100 %></span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Drinks</h2>
+            <div class="shop-items">
+                <% items.drinks.forEach(function(item){ %>
                     <div class="shop-item" data-item-id="<%= item.id %>">
                         <span class="shop-item-title"><%= item.name %></span>
                         <img class="shop-item-image" src="Images/<%= item.imgName %>">
@@ -66,6 +99,18 @@
             </div>
             <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
         </section>
+
+        <footer class="footer bg-dark">
+            <div class="social">
+               <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+               <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+               <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+               <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+         </footer>
+
+
+        <!-- Original footer
         <footer class="main-footer">
             <div class="container main-footer-container">
                 <h3 class="band-name">The Generics</h3>
@@ -88,5 +133,6 @@
                 </ul>
             </div>
         </footer>
+    -->
     </body>
 </html>
