@@ -1,5 +1,6 @@
+
 {
-  "Bengali traditional sweets": [
+  "music": [
     {
       "id": 1,
       "name": "Sweet 2",
@@ -51,7 +52,7 @@
 
 
   ],
-  "Cakes": [
+  "merch": [
     {
       "id": 9,
       "name": "White chocolate cake (whole cake)",
@@ -89,7 +90,7 @@
       "imgName": "rainbow sprinkle cake.png"
     }
   ],
-   "Drinks":[
+   "drinks":[
     {
       "id": 15,
       "name": "Mango/Pink lassi",
