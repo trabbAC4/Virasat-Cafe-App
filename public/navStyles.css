@@ -1,72 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 /* Text colors */
 
-.text-primary {
+.green {
   color: #28a745;
 }
 
-.text-secondary {
-  color: #0284d0;
+.white {
+  color: white
 }
 
-/* Button */
-
-.btn {
-  cursor: pointer;
-  display: inline-block;
-  padding: 10px 30px;
-  color: #fff;
-  background-color: #28a745;
-  border: none;
-  border-radius: 5px;
+.white {
+  color: white;
 }
 
-.btn:hover {
-  opacity: 0.9;
-}
-
-.btn-primary,
-.bg-primary {
-  background: #28a745;
-  color: #fff;
-}
-
-
-
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-  background: #fff;
-  color: #333;
-  line-height: 1.6;
-}
-
-ul {
+.hero ul {
   list-style: none;
 }
 
-a {
+
+.hero a {
   color: #333;
   text-decoration: none;
 }
 
-h1,
-h2 {
+.hero h1,
+.hero h2 {
   font-weight: 300;
   line-height: 1.2;
 }
 
-p {
+.hero p {
   margin: 10px 0;
 }
 
-img {
+.hero img {
   width: 100%;
 }
 /* Navbar */
@@ -109,6 +76,7 @@ img {
 /* Header */
 
 .hero {
+  font-family: "Open Sans", sans-serif;
   background: url("../images/home/jalebi.jpeg") no-repeat center center/cover;
   height: 30vh;
   position: relative;
@@ -154,31 +122,6 @@ img {
   z-index: 10;
 }
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 200px;
-}
-
-.footer a {
-  color: #fff;
-}
-
-.footer a:hover {
-  color: #28a745;
-}
-
-.footer .social > * {
-  margin-right: 30px;
-}
-
-
-
-
-
 
 
 
@@ -195,6 +138,5 @@ img {
     padding: 10px 10px;
     margin: 0 3px;
   }
-
 
 }

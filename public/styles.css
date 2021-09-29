@@ -14,6 +14,9 @@
     font-family: Raleway;
     color: #777;
 }
+#about  {
+    height: 150px;
+}
 
 html, body {
     margin: 0;
@@ -98,6 +101,9 @@ html, body {
 }
 
 .main-footer {
+    display: flex;
+    align-items: center;
+    height: 200px;
     background-color: #56CCF2;
     color: white;
     padding: .25em 0;
@@ -415,3 +421,6 @@ body {
     height: 400px;
     width: 100%;
 }
+
+
+
