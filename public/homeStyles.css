@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
 /* Text colors */
 
 .text-primary {
@@ -148,6 +149,10 @@
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
+}
+
+.flex-grid .column img {
+  height: 300px;
 }
 
 * {
@@ -353,7 +358,17 @@ img {
 
 /* Footer */
 
+.band-name {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: "Booter - Zero Zero";
+  font-weight: normal;
+  color: white;
+}
+
 .footer {
+  background: black;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -401,4 +416,8 @@ img {
   .team img {
     width: 70%;
   }
+}
+
+.circle {
+  height: 400px;
 }
