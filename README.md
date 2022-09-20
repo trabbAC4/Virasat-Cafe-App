@@ -2,13 +2,14 @@ Virasat Cafe App
 Sep 2021
 
 Project description
+
 -Developed online shop webpage for local restaurant (Virasat Cafe in Jackson Heights, Queens)
 -Implemented payment functionality using Stripe API
 -Implemented location services using google maps API
 -Utilized HTML,CSS, and Javascript to develop webpage
 -Utilized node.js to handle backend functionality
 
-To see the website do these steps-
+To see the website perform these steps
 
 Download the zip file of this repo
 Extract the folder within the zip file and open that folder in Visual Studio Code
