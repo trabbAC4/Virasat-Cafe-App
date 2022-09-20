@@ -1,19 +1,23 @@
-Virasat Cafe App
-Sep 2021
+<h1> Virasat Cafe App </h1>
+<p> Sep 2021 </p>
 
-Project description
+ <h2> Project description </h2>
 
--Developed online shop webpage for local restaurant (Virasat Cafe in Jackson Heights, Queens)
--Implemented payment functionality using Stripe API
--Implemented location services using google maps API
--Utilized HTML,CSS, and Javascript to develop webpage
--Utilized node.js to handle backend functionality
+<ul> 
+<li> Developed online shop webpage for local restaurant (Virasat Cafe in Jackson Heights, Queens) </li>
+  <li> Implemented payment functionality using Stripe API </li>
+  <li> Implemented location services using google maps API </li> 
+  <li> Utilized HTML,CSS, and Javascript to develop webpage </li>
+  <li> Utilized node.js to handle backend functionality </li> 
+ </ul> 
 
-To see the website perform these steps
+<h2> To see the website perform these steps </h2>
 
-Download the zip file of this repo
-Extract the folder within the zip file and open that folder in Visual Studio Code
-Open integrated terminal in Visual Studio Code
-Inside terminal run "npm i" to install dependencies using node package manager
-Inside terminal run "node server.js" to run the server
-Go to http://localhost:3000/ to see the website
+<ul> 
+  <li> Download the zip file of this repo </li>
+  <li> Extract the folder within the zip file and open that folder in Visual Studio Code </li>
+  <li> Open integrated terminal in Visual Studio Code </li>
+  <li> Inside terminal run "npm i" to install dependencies using node package manager </li>
+  <li> Inside terminal run "node server.js" to run the server </li>
+  <li> Go to http://localhost:3000/ to see the website </li>
+</ul>
