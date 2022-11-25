@@ -18,6 +18,6 @@
   <li> Extract the folder within the zip file and open that folder in Visual Studio Code </li>
   <li> Open integrated terminal in Visual Studio Code </li>
   <li> Inside terminal run "npm i" to install dependencies using node package manager </li>
-  <li> Inside terminal run "node server.js" to run the server </li>
+  <li> Inside terminal run "npm start" to run the server </li>
   <li> Go to http://localhost:3000/ to see the website </li>
 </ul>
