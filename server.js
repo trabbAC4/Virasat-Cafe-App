@@ -1,13 +1,10 @@
 //Server.js file to set up server and fix any dependancies
-//Running using terminal
-//Now go to localhost
 if (process.env.NODE_ENV !== "production") {
   require("dotenv").config();
 }
 
 const stripeSecretKey = process.env.STRIPE_SECRET_KEY;
 const stripePublicKey = process.env.STRIPE_PUBLIC_KEY;
-
 const express = require("express");
 const path = require("path");
 const app = express();

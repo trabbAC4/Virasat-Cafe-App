@@ -1,5 +1,5 @@
 <h1> Virasat Cafe App </h1>
-<p> Sep 2021 </p>
+<p> Sep 2022 </p>
 
  <h2> Project description </h2>
 

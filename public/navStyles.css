@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
-/* Text colors */
 
+/* Text colors */
 .green {
   color: #28a745;
 }
@@ -32,7 +32,6 @@
   width: 100%;
 }
 /* Navbar */
-
 .navbar {
   font-family: "Open Sans", sans-serif;
   display: flex;
@@ -68,7 +67,6 @@
 }
 
 /* Header */
-
 .hero {
   background: url("./Images/background.jpg") no-repeat center center/cover;
   height: 30vh;
@@ -91,7 +89,6 @@
 }
 
 /* Mobile */
-
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;

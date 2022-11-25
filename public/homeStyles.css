@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
 
 /* Text colors */
-
 .text-primary {
   color: #28a745;
 }
@@ -11,7 +10,6 @@
 }
 
 /* Button */
-
 .btn {
   cursor: pointer;
   display: inline-block;
@@ -53,7 +51,6 @@
 }
 
 /* Flex items */
-
 .flex-items {
   display: flex;
   text-align: center;
@@ -67,7 +64,6 @@
 }
 
 /* Flex columns */
-
 .flex-columns.flex-reverse .row {
   flex-direction: row-reverse;
 }
@@ -119,7 +115,6 @@
 }
 
 /* Section Header */
-
 .section-header {
   padding: 30px;
   display: flex;
