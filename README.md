@@ -21,3 +21,7 @@
   <li> Inside terminal run "npm start" to run the server </li>
   <li> Go to http://localhost:3000/ to see the website </li>
 </ul>
+
+
+https://github.com/trabbAC4/Virasat-Cafe-App/assets/46875493/bba71e7b-da99-43b9-8126-dd1f45e30b3f
+
