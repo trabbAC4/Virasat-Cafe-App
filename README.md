@@ -1,6 +1,4 @@
-<h1> Virasat Cafe App </h1>
-
-<h2> Video demonstrating app </h2>
+<h1> Video demonstrating Virasat Cafe App </h1>
 
 https://github.com/trabbAC4/Virasat-Cafe-App/assets/46875493/bba71e7b-da99-43b9-8126-dd1f45e30b3f
 
